@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 
 export default function About() {
     const [showVideo, setShowVideo] = useState(false)
-    const [isMuted, setIsMuted] = useState(false)
+    const [isMuted, setIsMuted] = useState(true)
     const [hasAudio, setHasAudio] = useState(true)
     const videoRef = useRef(null)
     const audioRef = useRef(null)
@@ -16,20 +16,21 @@ export default function About() {
     }, [])
 
     useEffect(() => {
-        if (showVideo) {
-            if (videoRef.current && audioRef.current) {
-                videoRef.current.currentTime = 0
-                audioRef.current.currentTime = 0
-                videoRef.current.play()
-                audioRef.current.play()
-            }
-        } else {
-            if (audioRef.current) {
-                audioRef.current.pause()
-                audioRef.current.currentTime = 0
-            }
+        if (showVideo && videoRef.current) {
+            videoRef.current.currentTime = 0
+            videoRef.current.play().catch(() => {})
         }
     }, [showVideo])
+
+    useEffect(() => {
+        if (showVideo && audioRef.current) {
+            if (!isMuted) {
+                audioRef.current.play().catch(() => {})
+            } else {
+                audioRef.current.pause()
+            }
+        }
+    }, [isMuted, showVideo])
 
     const handleVideoEnded = () => {
         setShowVideo(false)
@@ -39,11 +40,7 @@ export default function About() {
     }
 
     const toggleMute = () => {
-        const newMuted = !isMuted
-        setIsMuted(newMuted)
-        if (audioRef.current) {
-            audioRef.current.muted = newMuted
-        }
+        setIsMuted(!isMuted)
     }
 
     return (
@@ -68,7 +65,7 @@ export default function About() {
                                         ref={videoRef}
                                         src="/assets/videos/teaser.mp4"
                                         className="w-full h-80 object-cover"
-                                        muted={false}
+                                        muted={true}
                                         onEnded={handleVideoEnded}
                                     />
                                     {hasAudio && (

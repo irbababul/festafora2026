@@ -16,7 +16,7 @@ export default function Navbar() {
         <header id="navbar" className="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-brand-dark/80 backdrop-blur-md border-b border-slate-800">
             <div className="w-full px-6 sm:px-8 lg:px-12">
                 <div className="flex items-center justify-between h-20">
-                    <a href="#home" className="flex items-center gap-3 group">
+                    <a href="#home" className="flex items-center gap-3 group -ml-2 md:-ml-4 lg:-ml-10">
                         <div className="w-11 h-11 rounded-xl bg-gradient-to-tr from-brand-orange via-brand-gold to-brand-lime p-0.5 shadow-lg shadow-brand-orange/20 transition-transform group-hover:scale-105">
                             <img src="/assets/images/logo-formasi.png" alt="Logo Festafora" className="w-full h-full object-cover rounded-[10px]" />
                         </div>
@@ -25,7 +25,7 @@ export default function Navbar() {
                         </div>
                     </a>
 
-                    <nav className="hidden md:flex items-center space-x-8 text-sm font-medium">
+                    <nav className="hidden min-[1250px]:flex items-center space-x-8 text-sm font-medium">
                         {navLinks.map((link) => (
                             <a key={link.href} href={link.href} className="text-slate-300 hover:text-brand-orange transition-colors">
                                 {link.label}
@@ -33,7 +33,7 @@ export default function Navbar() {
                         ))}
                     </nav>
 
-                    <div className="hidden md:flex items-center gap-3">
+                    <div className="hidden min-[1250px]:flex items-center gap-3">
                         <a href="#lomba" className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-brand-orange to-brand-gold text-slate-950 font-bold text-sm shadow-lg shadow-brand-orange/25 hover:shadow-brand-orange/40 hover:scale-105 transition-all">
                             Daftar Sekarang <i className="fa-solid fa-arrow-right ml-1"></i>
                         </a>
@@ -41,8 +41,8 @@ export default function Navbar() {
 
                     <button 
                         id="mobileMenuBtn" 
-                        type="button" 
-                        className="md:hidden text-slate-300 hover:text-white p-2 text-2xl focus:outline-none"
+                        type="button"
+                        className="min-[1250px]:hidden text-slate-300 hover:text-white p-2 text-2xl focus:outline-none"
                         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                         aria-label="Toggle Navigation"
                     >
@@ -51,7 +51,7 @@ export default function Navbar() {
                 </div>
             </div>
 
-            <div id="mobileMenu" className={`${mobileMenuOpen ? 'block' : 'hidden'} md:hidden bg-brand-cardBg border-b border-slate-800 px-4 pt-2 pb-6 space-y-3`}>
+            <div id="mobileMenu" className={`${mobileMenuOpen ? 'block' : 'hidden'} min-[1250px]:hidden bg-brand-cardBg border-b border-slate-800 px-4 pt-2 pb-6 space-y-3`}>
                 <a href="#about" className="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-slate-300 hover:bg-slate-800 hover:text-brand-orange">Tentang Festafora</a>
                 <a href="#lomba" className="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-slate-300 hover:bg-slate-800 hover:text-brand-orange">Kompetisi Lomba</a>
                 <a href="#webinar" className="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-slate-300 hover:bg-slate-800 hover:text-brand-orange">Webinar Nasional</a>
