@@ -34,7 +34,7 @@ export default function Hero() {
         <section id="home" className="relative pt-32 pb-20 md:pt-44 md:pb-32 overflow-hidden">
             {/* Background Image with Blue Overlay */}
             <div className="absolute inset-0 z-0">
-                <img src="/src/assets/images/hero-bg.jpg" alt="" className="w-full h-full object-cover" />
+                <img src="/assets/images/hero-bg.jpg" alt="" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-b from-brand-dark/80 via-brand-dark/60 to-brand-dark/90"></div>
             </div>
 

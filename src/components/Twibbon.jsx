@@ -3,7 +3,7 @@ import { useState } from 'react'
 export default function Twibbon() {
     const [imgError, setImgError] = useState(false)
 
-    const twibbonImg = '/src/assets/images/twibbon.png'
+            const twibbonImg = '/assets/images/twibbon.png'
     const fallbackImg = 'https://placehold.co/400x400/0f172a/f27a22?text=Twibbon+FESTAFORA+2026'
 
     return (

@@ -51,7 +51,7 @@ export default function About() {
             {/* Hidden Audio Element */}
             <audio 
                 ref={audioRef} 
-                src="/src/assets/videos/teaser-audio.mp3"
+                src="/assets/videos/teaser-audio.mp3"
                 muted={isMuted}
                 onEnded={handleVideoEnded}
             />
@@ -66,7 +66,7 @@ export default function About() {
                                 <div className="relative">
                                     <video 
                                         ref={videoRef}
-                                        src="/src/assets/videos/teaser.mp4"
+                                        src="/assets/videos/teaser.mp4"
                                         className="w-full h-80 object-cover"
                                         muted={true}
                                         onEnded={handleVideoEnded}
@@ -84,7 +84,7 @@ export default function About() {
                                 <div className="p-8 text-center">
                                     <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-tr from-brand-orange to-brand-gold p-1 shadow-xl">
                                         <img 
-                                            src="/src/assets/images/logo-formasi.png" 
+                                            src="/assets/images/logo-formasi.png" 
                                             alt="Logo Formasi KIP-K" 
                                             className="w-full h-full object-cover rounded-full bg-slate-900" 
                                         />

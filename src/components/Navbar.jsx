@@ -18,7 +18,7 @@ export default function Navbar() {
                 <div className="flex items-center justify-between h-20">
                     <a href="#home" className="flex items-center gap-3 group">
                         <div className="w-11 h-11 rounded-xl bg-gradient-to-tr from-brand-orange via-brand-gold to-brand-lime p-0.5 shadow-lg shadow-brand-orange/20 transition-transform group-hover:scale-105">
-                            <img src="/src/assets/images/logo-formasi.png" alt="Logo Festafora" className="w-full h-full object-cover rounded-[10px]" />
+                            <img src="/assets/images/logo-formasi.png" alt="Logo Festafora" className="w-full h-full object-cover rounded-[10px]" />
                         </div>
                         <div>
                             <span className="text-xl font-extrabold tracking-tight text-white block leading-none">FESTAFORA <span className="text-brand-orange">2026</span></span>

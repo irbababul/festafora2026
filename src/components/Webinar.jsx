@@ -3,7 +3,7 @@ import { useState } from 'react'
 export default function Webinar({ onOpenModal }) {
     const [imgError, setImgError] = useState(false)
     
-    const webinarImg = '/src/assets/images/pamflet-webinar.png'
+    const webinarImg = '/assets/images/pamflet-webinar.png'
     const fallbackImg = 'https://placehold.co/600x850/0f172a/f27a22?text=PAMFLET+WEBINAR+NASIONAL+FESTAFORA+2026'
 
     return (
