@@ -68,7 +68,7 @@ export default function About() {
                                         ref={videoRef}
                                         src="/assets/videos/teaser.mp4"
                                         className="w-full h-80 object-cover"
-                                        muted={true}
+                                        muted={false}
                                         onEnded={handleVideoEnded}
                                     />
                                     {hasAudio && (
