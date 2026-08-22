@@ -37,7 +37,7 @@ export default function Twibbon() {
                         </div>
 
                         <div className="lg:col-span-4 flex flex-col gap-3">
-                            <a href="https://drive.google.com" target="_blank" rel="noopener noreferrer" className="px-6 py-3.5 rounded-xl bg-gradient-to-r from-brand-orange to-brand-amber text-slate-950 font-bold text-sm text-center shadow-lg hover:scale-105 transition-all flex items-center justify-center gap-2">
+                            <a href="https://drive.google.com/drive/folders/1713Ou825sF50JWTbz9neiaiopZGXfwsj?usp=drive_link" target="_blank" rel="noopener noreferrer" className="px-6 py-3.5 rounded-xl bg-gradient-to-r from-brand-orange to-brand-amber text-slate-950 font-bold text-sm text-center shadow-lg hover:scale-105 transition-all flex items-center justify-center gap-2">
                                 <i className="fa-solid fa-image"></i> Download Twibbon (GDrive)
                             </a>
                             {/* <a href="https://drive.google.com" target="_blank" rel="noopener noreferrer" className="px-6 py-3.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-semibold text-sm text-center border border-slate-700 transition-all flex items-center justify-center gap-2">
