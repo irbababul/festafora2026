@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import About from './components/About'
+// import About from './components/About'
 import Competitions from './components/Competitions'
-import Webinar from './components/Webinar'
+// import Webinar from './components/Webinar'
 import Timeline from './components/Timeline'
 import Twibbon from './components/Twibbon'
 import FAQ from './components/FAQ'
@@ -29,9 +29,9 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <About />
+      {/* <About /> */}
       <Competitions onOpenModal={openModal} />
-      <Webinar onOpenModal={openModal} />
+      {/* <Webinar onOpenModal={openModal} /> */}
       <Timeline />
       <Twibbon />
       <FAQ />
