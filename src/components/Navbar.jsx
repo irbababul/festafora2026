@@ -4,9 +4,9 @@ export default function Navbar() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     const navLinks = [
-        { href: '#about', label: 'Tentang' },
+        // { href: '#about', label: 'Tentang' },
         { href: '#lomba', label: 'Kompetisi Lomba' },
-        { href: '#webinar', label: 'Webinar' },
+        // { href: '#webinar', label: 'Webinar' },
         { href: '#timeline', label: 'Jadwal Event' },
         { href: '#twibbon', label: 'Twibbon & Link' },
         { href: '#faq', label: 'FAQ' },
@@ -52,9 +52,9 @@ export default function Navbar() {
             </div>
 
             <div id="mobileMenu" className={`${mobileMenuOpen ? 'block' : 'hidden'} min-[1250px]:hidden bg-brand-cardBg border-b border-slate-800 px-4 pt-2 pb-6 space-y-3`}>
-                <a href="#about" className="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-slate-300 hover:bg-slate-800 hover:text-brand-orange">Tentang Festafora</a>
+                {/* <a href="#about" className="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-slate-300 hover:bg-slate-800 hover:text-brand-orange">Tentang Festafora</a> */}
                 <a href="#lomba" className="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-slate-300 hover:bg-slate-800 hover:text-brand-orange">Kompetisi Lomba</a>
-                <a href="#webinar" className="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-slate-300 hover:bg-slate-800 hover:text-brand-orange">Webinar Nasional</a>
+                {/* <a href="#webinar" className="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-slate-300 hover:bg-slate-800 hover:text-brand-orange">Webinar Nasional</a> */}
                 <a href="#timeline" className="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-slate-300 hover:bg-slate-800 hover:text-brand-orange">Jadwal Event</a>
                 <a href="#twibbon" className="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-slate-300 hover:bg-slate-800 hover:text-brand-orange">Twibbon & Akses Link</a>
                 <a href="#faq" className="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-slate-300 hover:bg-slate-800 hover:text-brand-orange">FAQ</a>
