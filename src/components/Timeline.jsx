@@ -69,7 +69,7 @@ export default function Timeline() {
                     {stages.map((stage) => (
                         <div key={stage.num} className="relative group">
                             <div 
-                                className="absolute -left-[31px] sm:-left-[47px] top-0 w-8 h-8 rounded-full text-slate-950 flex items-center justify-center font-bold text-xs ring-8 ring-brand-dark"
+                                className="absolute -left-[40px] sm:-left-[47px] top-0 w-8 h-8 rounded-full text-slate-950 flex items-center justify-center font-bold text-xs ring-8 ring-brand-dark"
                                 style={{ backgroundColor: colorMap[stage.num].bg }}
                             >
                                 {stage.num}
