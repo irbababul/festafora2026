@@ -32,7 +32,7 @@ export default function Twibbon() {
                                 Unduh Twibbon Resmi & Pamflet FESTAFORA 2026
                             </h3>
                             <p className="text-slate-300 text-sm leading-relaxed mb-6">
-                                Dukung dan semarakkan HUT ke-9 Formasi KIP-K UPN "Veteran" Jawa Timur dengan memasang Twibbon di media sosialmu! Kamu juga bisa mengunduh booklet petunjuk lengkap di sini.
+                                Dukung dan semarakkan HUT ke-9 Formasi KIP-K UPN "Veteran" Jawa Timur dengan memasang Twibbon di media sosialmu!
                             </p>
                         </div>
 
