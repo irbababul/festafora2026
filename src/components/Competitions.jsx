@@ -22,8 +22,8 @@ export default function Competitions({ onOpenModal }) {
             imgKey: 'bpc',
             description: 'Economic Transformation for Tomorrow: Inovasi Bisnis Berkelanjutan dan Inklusif Menuju SDGs 2030.',
             gradient: 'from-brand-orange to-brand-amber',
-            formLink: 'https://forms.google.com',
-            guideLink: 'https://drive.google.com'
+            formLink: 'https://bit.ly/BPCFestafora2026',
+            guideLink: 'https://bit.ly/GuideBookBPCFestafora2026'
         },
         {
             id: 2,
@@ -37,8 +37,8 @@ export default function Competitions({ onOpenModal }) {
             imgKey: 'poster',
             description: 'Visualizing Green Action: Inovasi Generasi Muda dalam Edukasi Kreatif Menuju SDGs 2030 dalam Menghadapi Krisis Lingkungan.',
             gradient: 'from-brand-lime to-emerald-500',
-            formLink: 'https://forms.google.com',
-            guideLink: 'https://drive.google.com'
+            formLink: 'https://bit.ly/PosterFestafora2026',
+            guideLink: 'https://bit.ly/GuideBookPosterFestafora2026'
         },
         {
             id: 3,
@@ -52,8 +52,8 @@ export default function Competitions({ onOpenModal }) {
             imgKey: 'essay',
             description: 'Sinergi Generasi Muda: Jembatan Keadilan, Kesetaraan Gender, dan Kedaulatan Pangan demi Kesejahteraan Masa Depan Menuju SDGs 2030.',
             gradient: 'from-brand-skyblue to-brand-blue',
-            formLink: 'https://forms.google.com',
-            guideLink: 'https://drive.google.com'
+            formLink: 'https://bit.ly/EssayFestafora2026',
+            guideLink: 'https://bit.ly/GuideBookEssayFestafora2026'
         }
     ]
 
