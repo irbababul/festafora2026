@@ -17,10 +17,10 @@ export default function Footer() {
                             Festival of Formasi 2026 - Peringatan Hari Ulang Tahun ke-9 Formasi (Forum Mahasiswa KIP-Kuliah) Universitas Pembangunan Nasional "Veteran" Jawa Timur.
                         </p>
                         <div className="flex items-center gap-3">
-                            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-lg bg-slate-800 hover:bg-brand-orange hover:text-slate-950 text-slate-300 flex items-center justify-center transition-all">
+                            <a href="https://www.instagram.com/festafora2k26?igsi=MWJrM3czOG16cGhsNw==" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-lg bg-slate-800 hover:bg-brand-orange hover:text-slate-950 text-slate-300 flex items-center justify-center transition-all">
                                 <i className="fa-brands fa-instagram text-base"></i>
                             </a>
-                            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-lg bg-slate-800 hover:bg-brand-orange hover:text-slate-950 text-slate-300 flex items-center justify-center transition-all">
+                            <a href="https://www.tiktok.com/@formasi_belanegara?_r=1&_t=ZS-99Aymt7uxoz" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-lg bg-slate-800 hover:bg-brand-orange hover:text-slate-950 text-slate-300 flex items-center justify-center transition-all">
                                 <i className="fa-brands fa-tiktok text-base"></i>
                             </a>
                             <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-lg bg-slate-800 hover:bg-brand-orange hover:text-slate-950 text-slate-300 flex items-center justify-center transition-all">
