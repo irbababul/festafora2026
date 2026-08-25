@@ -14,7 +14,7 @@ export default function Footer() {
                             <span className="text-xl font-extrabold text-white">FESTAFORA <span className="text-brand-orange">2026</span></span>
                         </div>
                         <p className="text-slate-400 text-xs sm:text-sm leading-relaxed mb-6">
-                            Festival of Formasi 2026 - Peringatan Hari Ulang Tahun ke-9 Formasi (Forum Mahasiswa KIP-Kuliah) Universitas Pembangunan Nasional "Veteran" Jawa Timur.
+                            Festival of Formasi 2026 - Peringatan Hari Ulang Tahun ke-9 Formasi (Forum Mahasiswa) KIP-K Universitas Pembangunan Nasional "Veteran" Jawa Timur.
                         </p>
                         <div className="flex items-center gap-3">
                             <a href="https://www.instagram.com/festafora2k26?igsi=MWJrM3czOG16cGhsNw==" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-lg bg-slate-800 hover:bg-brand-orange hover:text-slate-950 text-slate-300 flex items-center justify-center transition-all">
