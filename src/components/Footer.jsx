@@ -48,8 +48,8 @@ export default function Footer() {
                                 <div className="flex items-center gap-3">
                                     <i className="fa-brands fa-whatsapp text-emerald-400 text-lg"></i>
                                     <div className="text-left">
-                                        <span className="block text-xs font-bold text-white">CP Lomba (Kak Hafidz)</span>
-                                        <span className="block text-[10px] text-slate-400">+62 812-3456-7890</span>
+                                        <span className="block text-xs font-bold text-white">CP Lomba (Kak Ella)</span>
+                                        <span className="block text-[10px] text-slate-400">+62 857-3144-6292</span>
                                     </div>
                                 </div>
                                 <i className="fa-solid fa-chevron-right text-xs text-slate-500 group-hover:text-emerald-400 transition-colors"></i>
