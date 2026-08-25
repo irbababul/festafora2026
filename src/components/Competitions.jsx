@@ -27,7 +27,7 @@ export default function Competitions({ onOpenModal }) {
         },
         {
             id: 2,
-            title: 'Lomba Poster',
+            title: 'Poster Competition',
             deadline: '9 September 2026',
             type: 'Individu',
             badge: 'Nasional',
@@ -42,7 +42,7 @@ export default function Competitions({ onOpenModal }) {
         },
         {
             id: 3,
-            title: 'Lomba Essay',
+            title: 'Essay Competition',
             deadline: '9 September 2026',
             type: 'Tim/individu (max 2 Orang)',
             badge: null,
