@@ -44,7 +44,7 @@ export default function Footer() {
                         <h5 className="text-xs font-bold uppercase tracking-wider text-white mb-4">Contact Person / Helpdesk</h5>
                         <p className="text-xs text-slate-400 mb-4">Ada pertanyaan seputar pendaftaran atau kendala pendaftaran?</p>
                         <div className="space-y-2">
-                            <a href="https://wa.me/6281234567890?text=Halo%20Panitia%20FESTAFORA%202026,%20saya%20ingin%20bertanya..." target="_blank" rel="noopener noreferrer" className="p-3 rounded-xl bg-slate-900 border border-slate-800 hover:border-emerald-500/50 flex items-center justify-between group transition-all">
+                            <a href="https://wa.me/6285731446292?text=Halo%20Panitia%20FESTAFORA%202026,%20saya%20ingin%20bertanya..." target="_blank" rel="noopener noreferrer" className="p-3 rounded-xl bg-slate-900 border border-slate-800 hover:border-emerald-500/50 flex items-center justify-between group transition-all">
                                 <div className="flex items-center gap-3">
                                     <i className="fa-brands fa-whatsapp text-emerald-400 text-lg"></i>
                                     <div className="text-left">
