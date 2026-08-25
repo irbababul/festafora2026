@@ -5,7 +5,7 @@ export default function Navbar() {
 
     const navLinks = [
         // { href: '#about', label: 'Tentang' },
-        { href: '#lomba', label: 'Kompetisi Lomba' },
+        { href: '#lomba', label: 'Lomba' },
         // { href: '#webinar', label: 'Webinar' },
         { href: '#timeline', label: 'Jadwal Event' },
         { href: '#twibbon', label: 'Twibbon & Link' },
