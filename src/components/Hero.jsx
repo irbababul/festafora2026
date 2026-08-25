@@ -18,7 +18,7 @@ export default function Hero() {
     const [showWebinarModal, setShowWebinarModal] = useState(false)
 
     useEffect(() => {
-        const targetDate = new Date('August 25, 2026 23:59:59').getTime()
+        const targetDate = new Date('Sept 9, 2026 23:59:59').getTime()
 
         function updateCountdown() {
             const now = new Date().getTime()
@@ -90,7 +90,7 @@ export default function Hero() {
                     </div>
 
                     <div className="max-w-2xl mx-auto glass-card p-6 rounded-2xl shadow-2xl border border-slate-700/60">
-                        <h3 className="text-xs uppercase tracking-widest text-slate-400 font-semibold mb-4">Pembukaan Pendaftaran Lomba Gelombang 1 dalam</h3>
+                        <h3 className="text-xs uppercase tracking-widest text-slate-400 font-semibold mb-4">Penutupan Pendaftaran Lomba Gelombang 1 dalam</h3>
                         <div className="grid grid-cols-4 gap-3 sm:gap-6 text-center" id="countdown">
                             <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-800">
                                 <span className="text-2xl sm:text-4xl font-extrabold text-brand-orange">{countdown.days}</span>
