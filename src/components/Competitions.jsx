@@ -32,7 +32,7 @@ export default function Competitions({ onOpenModal }) {
             type: 'Individu',
             badge: 'Nasional',
             typeColor: 'bg-brand-lime',
-            image: 'public/assets/images/pamflet-poster.png',
+            image: 'assets/images/pamflet-poster.png',
             fallback: placeholderImg('84cc16'),
             imgKey: 'poster',
             description: 'Visualizing Green Action: Inovasi Generasi Muda dalam Edukasi Kreatif Menuju SDGs 2030 dalam Menghadapi Krisis Lingkungan.',
