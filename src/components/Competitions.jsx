@@ -17,7 +17,7 @@ export default function Competitions({ onOpenModal }) {
             type: 'Tim (3 Orang)',
             badge: null,
             typeColor: 'bg-brand-orange',
-            image: '/images/pamflet-bpc.png',
+            image: 'assets/images/pamflet-bpc.png',
             fallback: placeholderImg('f27a22'),
             imgKey: 'bpc',
             description: 'Economic Transformation for Tomorrow: Inovasi Bisnis Berkelanjutan dan Inklusif Menuju SDGs 2030.',
