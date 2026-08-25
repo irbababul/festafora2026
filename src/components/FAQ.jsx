@@ -10,7 +10,7 @@ export default function FAQ() {
         },
         {
             question: 'Apakah Webinar FESTAFORA 2026 dipungut biaya?',
-            answer: 'Webinar FESTAFORA 2026 100% GR tis dan terbuka untuk umum. Seluruh peserta yang mendaftar dan mengikuti sesi hingga selesai akan mendapatkan E-Certificate resmi secara gratis.'
+            answer: 'Webinar FESTAFORA 2026 100% Gratis dan terbuka untuk umum. Seluruh peserta yang mendaftar dan mengikuti sesi hingga selesai akan mendapatkan E-Certificate resmi secara gratis.'
         },
         {
             question: 'Bagaimana cara mengunggah bukti pendaftaran dan karya?',
