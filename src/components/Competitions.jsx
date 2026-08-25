@@ -79,7 +79,6 @@ export default function Competitions({ onOpenModal }) {
                                     src={imgErrors[comp.imgKey] ? comp.fallback : comp.image} 
                                     alt={`Pamflet ${comp.title}`} 
                                     className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
-"
                                     onError={() => handleImgError(comp.imgKey)}
                                 />
                                 <div className={`absolute top-3 left-3 ${comp.typeColor} text-slate-950 text-xs font-bold px-3 py-1 rounded-full shadow`}>
