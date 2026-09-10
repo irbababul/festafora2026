@@ -18,7 +18,7 @@ export default function Hero() {
     const [showWebinarModal, setShowWebinarModal] = useState(false)
 
     useEffect(() => {
-        const targetDate = new Date('Sept 9, 2026 23:59:59').getTime()
+        const targetDate = new Date('Sept 25, 2026 23:59:59').getTime()
 
         function updateCountdown() {
             const now = new Date().getTime()
