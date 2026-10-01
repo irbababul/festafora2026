@@ -82,10 +82,9 @@ export default function Hero() {
                             </a> */}
                         {/* button sampai button dihapus*/}
                         <button
-                            onClick={() => setShowWebinarModal(true)}
-                            className="w-full sm:w-auto px-8 py-4 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white font-semibold text-base transition-all flex items-center justify-center gap-2 cursor-pointer"
-                        >
-                            <i className="fa-solid fa-video text-brand-skyblue"></i> Ikuti Webinar
+                           <a href="#webinar" className="w-full sm:w-auto px-8 py-4 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white font-semibold text-base transition-all flex items-center justify-center gap-2">
+                                <i className="fa-solid fa-video text-brand-skyblue"></i> Ikuti Webinar
+                            </a>
                         </button>
                     </div>
 
