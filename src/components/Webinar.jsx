@@ -50,7 +50,7 @@ export default function Webinar({ onOpenModal }) {
                             </div>
                             <div className="bg-slate-800/80 p-3 rounded-xl border border-slate-700/60">
                                 <span className="block text-[10px] text-slate-400 uppercase font-semibold">Waktu</span>
-                                <span className="text-xs sm:text-sm font-bold text-white"><i className="fa-regular fa-clock text-brand-gold mr-1"></i> 08.00 WIB - Selesai</span>
+                                <span className="text-xs sm:text-sm font-bold text-white"><i className="fa-regular fa-clock text-brand-gold mr-1"></i> 09.00 WIB - Selesai</span>
                             </div>
                             <div className="bg-slate-800/80 p-3 rounded-xl border border-slate-700/60 col-span-2 sm:col-span-1">
                                 <span className="block text-[10px] text-slate-400 uppercase font-semibold">Platform</span>
