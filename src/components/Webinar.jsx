@@ -69,7 +69,7 @@ export default function Webinar({ onOpenModal }) {
                         </div>
 
                         <div className="flex flex-col sm:flex-row items-center gap-4">
-                            <a href="https://forms.google.com" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-gradient-to-r from-brand-orange via-brand-amber to-brand-gold text-slate-950 font-bold text-sm shadow-lg shadow-brand-orange/20 hover:scale-105 transition-all text-center flex items-center justify-center gap-2">
+                            <a href="https://bit.ly/WEBINARFESTAFORA2026" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-gradient-to-r from-brand-orange via-brand-amber to-brand-gold text-slate-950 font-bold text-sm shadow-lg shadow-brand-orange/20 hover:scale-105 transition-all text-center flex items-center justify-center gap-2">
                                 <i className="fa-solid fa-user-plus"></i> Daftar Webinar Gratis (GForm)
                             </a>
                             <a href="https://chat.whatsapp.com" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-emerald-600/90 hover:bg-emerald-600 text-white font-semibold text-sm transition-all text-center flex items-center justify-center gap-2">
