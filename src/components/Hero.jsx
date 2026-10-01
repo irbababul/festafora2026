@@ -115,7 +115,7 @@ export default function Hero() {
 
             {/* [WEBINAR MODAL] Modal info webinar belum dibuka.
                 Komen seluruh blok ini saat webinar sudah dibuka. */}
-            {showWebinarModal && (
+            /* {showWebinarModal && (
                 <div
                     className="fixed inset-0 z-[999] flex items-center justify-center p-4"
                     onClick={() => setShowWebinarModal(false)}
@@ -166,7 +166,7 @@ export default function Hero() {
                     </div>
                 </div>
             )}
-            {/* ini akhirnya */}
+            {/* ini akhirnya */} */
         </>
     )
 }
